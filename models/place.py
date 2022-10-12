@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Place Module for HBNB project """
+""" Place Module for HBNB project. """
 
 from models.amenity import Amenity
 from models.review import Review

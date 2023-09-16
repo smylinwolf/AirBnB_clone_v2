@@ -21,7 +21,7 @@ fi
 
 # create /data/web_static/releases/
 if [[ ! -d "/data/web_static/releases/" ]]; then
-	suod mkdir -p /data/web_static/releases/
+	sudo mkdir -p /data/web_static/releases/
 fi
 
 # create /data/web_static/shared/

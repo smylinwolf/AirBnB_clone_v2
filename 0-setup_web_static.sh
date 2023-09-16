@@ -42,6 +42,7 @@ sudo ln -sf /data/web_static/releases/test/ /data/web_static/current
 
 # Ownership of file
 sudo chown -R ubuntu:ubuntu /data
+sudo chown -R ubuntu:ubuntu /data/*
 
 # using alias
 sudo sed -i '53i\\tlocation /hbnb_static {\n\t\talias /data/web_static/current;\n\t}' /etc/nginx/sites-available/default

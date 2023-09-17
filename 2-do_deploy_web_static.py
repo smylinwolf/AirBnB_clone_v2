@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 # A fabric scrip that distributes an archive to my web servers
 
 from fabric.api import put, local, run, env

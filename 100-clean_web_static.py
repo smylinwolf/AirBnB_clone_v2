@@ -12,7 +12,7 @@ def do_clean(number=0):
 
     number = int(number)
 
-    if number < 1:
+    if number == 0 or number == 1:
         number = 1
     else:
         number += 1

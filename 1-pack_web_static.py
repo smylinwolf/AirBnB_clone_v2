@@ -4,6 +4,7 @@
 from fabric.api import local
 from datetime import datetime
 
+
 def do_pack():
     """ A function, using a fabric script to generate a tgz archive
     from the the contents of the web_static """

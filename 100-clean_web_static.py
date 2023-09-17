@@ -6,6 +6,7 @@ from fabric.api import *
 env.hosts = ['54.157.129.183', '52.91.125.123']
 env.user = "ubuntu"
 
+
 def do_clean(number=0):
     """ Cleans old versions of web_static """
 
